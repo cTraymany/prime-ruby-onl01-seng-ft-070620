@@ -1,7 +1,10 @@
 # Add  code here!
+
 def prime?(num)
-  puts Array(1...num)
-  
+  array = Array(1..num)
+  array.any? do |number|
+    num % number = 0
+  end
 end
 
 num % num == 0
