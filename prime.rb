@@ -2,8 +2,12 @@
 
 def prime?(num)
   array = Array(1..num)
-  array.any? do |number|
-    num % number = 0
+  if num <= 1
+    false
+  else
+    array.any? do |number|
+      num % number = 0
+    end
   end
 end
 
