@@ -4,6 +4,8 @@ def prime?(num)
   array = Array(2..num)
   if num <= 1
     false
+  elsif num == 2
+    true
   else
     array.none? do |index|
 
