@@ -4,13 +4,13 @@ def prime?(num)
   array = Array(1..num)
   if num <= 1
     false
-  elsif num == 2 
+  elsif num == 2 || num == 3
     true
   else
     array.any? do |index|
-      if index > 1
+
         num % index == 0
-      end
+        
     end
     if true
       false
