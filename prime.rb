@@ -1,11 +1,9 @@
 # Add  code here!
 
 def prime?(num)
-  array = Array(1..num)
-  if num <= 1
+  array = Array(2..num)
+  if num <= 3
     false
-  elsif num == 2 || num == 3
-    true
   else
     array.any? do |index|
 
