@@ -10,3 +10,6 @@ def prime?(num)
     false
   end
 end
+
+num % num == 0
+num % 1 == num
