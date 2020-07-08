@@ -7,5 +7,8 @@ def prime?(num)
   end
 end
 
+
+=begin
 num % num == 0
 num % 1 == num
+=end
