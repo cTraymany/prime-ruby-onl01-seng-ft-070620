@@ -8,7 +8,7 @@ def prime?(num)
     true
   else
     array.any? do |number|
-      num % number == 0 if number > 1
+      num % number == 0 if num > 1
     end
     if true
       false
