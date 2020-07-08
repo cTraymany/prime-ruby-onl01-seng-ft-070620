@@ -6,7 +6,7 @@ def prime?(num)
     false
   else
     array.any? do |number|
-      num % number = 0
+      num % number == 0
     end
   end
 end
