@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  array = [0...num]
+  array(0...num)
   
 end
 
