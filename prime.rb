@@ -1,5 +1,11 @@
 # Add  code here!
 
+def prime?()
+
+
+
+
+=begin
 def prime?(num)
   array = Array(2..num)
   if num <= 1
@@ -14,7 +20,7 @@ def prime?(num)
     end
   end
 end
-
+=end
 
 =begin
 num % num == 0
