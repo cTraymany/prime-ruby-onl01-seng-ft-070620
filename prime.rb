@@ -5,7 +5,7 @@ def prime?(num)
   if num <= 1
     false
   else
-    array.any? do |index|
+    array.none? do |index|
 
         num % index == 0
         
