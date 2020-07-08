@@ -10,9 +10,6 @@ def prime?(num)
         num % index == 0
         
     end
-    if true
-      false
-    end
   end
 end
 
