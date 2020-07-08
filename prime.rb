@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  puts Array(0...num)
+  puts Array(1...num)
   
 end
 
