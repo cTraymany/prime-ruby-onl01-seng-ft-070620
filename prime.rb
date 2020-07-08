@@ -2,7 +2,7 @@
 
 def prime?(num)
   array = Array(2..num)
-  if num <= 3
+  if num <= 1
     false
   else
     array.any? do |index|
