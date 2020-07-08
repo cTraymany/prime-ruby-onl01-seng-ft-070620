@@ -8,6 +8,9 @@ def prime?(num)
     array.any? do |number|
       num % number == 0
     end
+    if true
+      false
+    end
   end
 end
 
